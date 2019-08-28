@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+
+.Header {
+    width: 100%;
+    background: black;
+    border: solid 1px black;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Lato, serif;
+    font-weight: 400;
+    padding: 2vh 0;
+}
+
+#header_cs1332 {
+    flex-grow: 1;
+    font-size: 2.5em;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 900;
+    margin-left: 2%;
+}
+
+#header_info {
+    flex-grow: 2;
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+
+#header_info_title {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#header_info_version {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#header_time {
+    flex-grow: 1;
+    text-align: right;
+    font-size: 2em;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    margin-right: 2%;
+}

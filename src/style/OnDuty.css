@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+.OnDuty {
+    background: black;
+    color: white;
+    width: 75%;
+    margin-right: 2vh;
+    padding: 2vh;
+    font-family: Lato, sans-serif;
+}
+
+#onduty_title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 1vh;
+}
+
+#onduty_tas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+#onduty_ta {
+    text-align: center;
+}
+
+#onduty_pic {
+    height: 250px;
+    width: 250px;
+}
+
+#onduty_name {
+    font-size: 1.5em;
+}

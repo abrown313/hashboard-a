@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(to right, #002277, #330055);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh;
+}
+
+#content {
+  width: 100%;
+  height: 81vh;
+  display: flex;
+  margin-top: 2vh;
+}

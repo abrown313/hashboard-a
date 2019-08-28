@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+.StudentQueue {
+    width: 25%;
+    background: black;
+    color: white;
+    font-family: Lato, sans-serif;
+    padding: 1%;
+}
+
+#studentq_title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#studentq_info {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#studentq_names {
+    background: #424242;
+    height: 80%;
+    margin: 2vh 1% 0 1%;
+    padding: 4%;
+    font-size: 1.5em;
+    overflow-y: auto;
+}
+
+#studentq_name {
+    margin-bottom: 2px;
+}
